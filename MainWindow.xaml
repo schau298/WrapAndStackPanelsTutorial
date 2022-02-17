@@ -1,0 +1,34 @@
+﻿<Window x:Class="WrapAndStackPanelsTutorial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WrapAndStackPanelsTutorial"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <WrapPanel Margin="0,0,126,217" Orientation="Vertical">
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+            <Button Content="Button" Height="25" Width="68"/>
+        </WrapPanel>
+        <StackPanel HorizontalAlignment="Left" Height="191" Margin="17,233,0,0" VerticalAlignment="Top" Width="422" Orientation="Horizontal">
+            <Button Content="Button" Height="21" Width="69" Background="#FFDE6565"/>
+            <Button Content="Button" Height="21" Width="69"/>
+            <Button Content="Button" Height="21" Width="69" Background="#FFF07676"/>
+            <Button Content="Button" Height="21" Width="69"/>
+            <Button Content="Button" Height="21" Width="69" Background="#FFD86969"/>
+            <Button Content="Button" Height="21" Width="69"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
